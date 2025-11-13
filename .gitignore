@@ -1,0 +1,58 @@
+# =========================================================
+# Global ignores for fullstack-challenge (NestJS + Next.js)
+# =========================================================
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+.next/
+out/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Prisma
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+backend/prisma/*.sqlite
+backend/prisma/*.sqlite-journal
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+
+# Coverage
+coverage/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache
+.cache/
+.next/cache/
+frontend/.next/cache/
+backend/.turbo/
+turbo/
+.tmp/
+temp/
