@@ -1,6 +1,6 @@
 # 🧩 Fullstack Challenge – Tasks Management App
 
-This is a **technical interview challenge** to evaluate your skills with **Next.js**, **NestJS**, and **Prisma** using a SQLite database.  
+This is a **technical interview challenge** to evaluate your skills with **Next.js**, **NestJS**, and **Prisma** using a SQLite database and regular skills such as Git branching flow, Clean Code, Code usability, etc.  
 You will have **1 hour** to complete the requirements listed below.
 
 ---
