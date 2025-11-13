@@ -55,7 +55,7 @@ fullstack-challenge-tasks-management/
 
 | # | Feature | Description | Points |
 |---|----------|--------------|--------|
-| 1 | **List Tasks (GET)** | Display all tasks fetched from the backend API (`/tasks`). | 20 |
+| 1 | **List Tasks (GET)** | Display all tasks fetched from the backend API (`/tasks`). Include pagination and filtering | 20 |
 | 2 | **Create Task (POST)** | Provide a simple form to create a new task (title + description). | 20 |
 | 3 | **Update Task (PUT)** | Allow editing an existing task’s title or completion status. | 15 |
 | 4 | **Delete Task (DELETE)** | Allow deleting a task from the list. | 15 |
@@ -76,6 +76,17 @@ fullstack-challenge-tasks-management/
 | 4 | Sorting | Sort tasks by creation date or name. | +5 |
 
 ---
+
+### API Endpoints to Implement
+
+Your backend should provide these REST endpoints in `backend/src/routes/todos.ts`:
+
+```
+GET    /tasks           - Return all tasks from db. Include filtering and pagination
+POST   /tasks           - Add new task to the array
+PUT    /tasks/:id       - Find a task and toggle completed status
+DELETE /tasks/:id       - Remove a task from db.
+```
 
 ## 🚀 Getting Started
 
